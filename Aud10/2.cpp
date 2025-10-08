@@ -3,13 +3,6 @@
 #include <cctype>
 using namespace std;
 
-int dolzhina(char a[]) //nema smisla
-{
-    int brojac=0;
-    for(int i=0;i< strlen(a);i++) //nema smisla ova
-        brojac++;
-    return brojac;
-}
 int main()
 {
     char a[101];
